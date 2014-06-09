@@ -12,6 +12,8 @@
 		43D03C4E1946210300B48F94 /* BIFileContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D03C4D1946210300B48F94 /* BIFileContentViewController.m */; };
 		43D03C511946211A00B48F94 /* BIFileContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D03C501946211A00B48F94 /* BIFileContentView.m */; };
 		43D03C5B194628D600B48F94 /* NSBundle+FullPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D03C5A194628D600B48F94 /* NSBundle+FullPath.m */; };
+		43D03C5F19463CFE00B48F94 /* NSString+CSSFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D03C5E19463CFE00B48F94 /* NSString+CSSFile.m */; };
+		43D03C631946403000B48F94 /* NSArray+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D03C621946403000B48F94 /* NSArray+Search.m */; };
 		655CF2951945997100505FFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2941945997100505FFA /* Foundation.framework */; };
 		655CF2971945997100505FFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2961945997100505FFA /* CoreGraphics.framework */; };
 		655CF2991945997100505FFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2981945997100505FFA /* UIKit.framework */; };
@@ -76,6 +78,10 @@
 		43D03C501946211A00B48F94 /* BIFileContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIFileContentView.m; path = Classes/GUI/FileContent/View/BIFileContentView.m; sourceTree = "<group>"; };
 		43D03C59194628D600B48F94 /* NSBundle+FullPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBundle+FullPath.h"; path = "Classes/Helpers/Categories/NSBundle/NSBundle+FullPath.h"; sourceTree = "<group>"; };
 		43D03C5A194628D600B48F94 /* NSBundle+FullPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+FullPath.m"; path = "Classes/Helpers/Categories/NSBundle/NSBundle+FullPath.m"; sourceTree = "<group>"; };
+		43D03C5D19463CFE00B48F94 /* NSString+CSSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CSSFile.h"; path = "Classes/Helpers/Categories/NSString/NSString+CSSFile.h"; sourceTree = "<group>"; };
+		43D03C5E19463CFE00B48F94 /* NSString+CSSFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+CSSFile.m"; path = "Classes/Helpers/Categories/NSString/NSString+CSSFile.m"; sourceTree = "<group>"; };
+		43D03C611946403000B48F94 /* NSArray+Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Search.h"; path = "Classes/Helpers/Categories/NSArray/NSArray+Search.h"; sourceTree = "<group>"; };
+		43D03C621946403000B48F94 /* NSArray+Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Search.m"; path = "Classes/Helpers/Categories/NSArray/NSArray+Search.m"; sourceTree = "<group>"; };
 		655CF2911945997100505FFA /* BIEPubFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BIEPubFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		655CF2941945997100505FFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		655CF2961945997100505FFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -239,6 +245,8 @@
 		43D03C531946268400B48F94 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				43D03C601946401C00B48F94 /* NSArray */,
+				43D03C5C19463CE800B48F94 /* NSString */,
 				43D03C58194628AD00B48F94 /* NSBundle */,
 			);
 			name = Categories;
@@ -251,6 +259,24 @@
 				43D03C5A194628D600B48F94 /* NSBundle+FullPath.m */,
 			);
 			name = NSBundle;
+			sourceTree = "<group>";
+		};
+		43D03C5C19463CE800B48F94 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				43D03C5D19463CFE00B48F94 /* NSString+CSSFile.h */,
+				43D03C5E19463CFE00B48F94 /* NSString+CSSFile.m */,
+			);
+			name = NSString;
+			sourceTree = "<group>";
+		};
+		43D03C601946401C00B48F94 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				43D03C611946403000B48F94 /* NSArray+Search.h */,
+				43D03C621946403000B48F94 /* NSArray+Search.m */,
+			);
+			name = NSArray;
 			sourceTree = "<group>";
 		};
 		655CF2881945997100505FFA = {
@@ -574,6 +600,7 @@
 				655CF31C19459C9900505FFA /* zutil.c in Sources */,
 				655CF31319459C9900505FFA /* gzlib.c in Sources */,
 				655CF3261945A24C00505FFA /* BIEPubFile.m in Sources */,
+				43D03C631946403000B48F94 /* NSArray+Search.m in Sources */,
 				655CF31819459C9900505FFA /* inflate.c in Sources */,
 				43D03C4E1946210300B48F94 /* BIFileContentViewController.m in Sources */,
 				655CF32F1945AE2B00505FFA /* BIFileHelpers.m in Sources */,
@@ -594,6 +621,7 @@
 				43D03C4719461C6300B48F94 /* BIFilesTableViewCell.m in Sources */,
 				655CF30D19459C9900505FFA /* OZZipWriteStream.m in Sources */,
 				43D03C5B194628D600B48F94 /* NSBundle+FullPath.m in Sources */,
+				43D03C5F19463CFE00B48F94 /* NSString+CSSFile.m in Sources */,
 				655CF2A11945997100505FFA /* main.m in Sources */,
 				655CF30719459C9900505FFA /* zip.c in Sources */,
 				655CF32C1945AD1400505FFA /* BICSSFile.m in Sources */,

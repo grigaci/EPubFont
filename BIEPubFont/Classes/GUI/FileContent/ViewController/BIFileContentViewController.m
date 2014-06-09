@@ -10,6 +10,8 @@
 #import "OZLib.h"
 
 #import "NSBundle+FullPath.h"
+#import "NSString+CSSFile.h"
+#import "NSArray+Search.h"
 #import "BIFileContentViewController.h"
 #import "BIFileContentView.h"
 
@@ -77,13 +79,21 @@
     NSString *fullPath = [[NSBundle mainBundle] fullPathForFile:self.file];
     OZZipFile *zipFile = [[OZZipFile alloc] initWithFileName:fullPath mode:OZZipFileModeUnzip];
     NSArray *allFiles= [zipFile listFileInZipInfos];
-    [self.fileContentView appendText:@"===== Printing epub content =====\n"];
+    NSArray *allCustomCSSFiles = [self allCustomCSSFilePaths];
+
+    [self printRegularText:@"===== Printing epub content ====="];
 
     for (OZFileInZipInfo *fileInZip in allFiles) {
         NSString *fileName = fileInZip.name;
-        [self.fileContentView appendText:[NSString stringWithFormat:@"%@\n", fileName]];
+        if ([allCustomCSSFiles containsString:fileName]) {
+            [self printCustomCSSFilePath:fileName];
+        } else if ([fileName isCSSFile]) {
+            [self printOriginalCSSFilePath:fileName];
+        } else {
+            [self printRegularText:fileName];
+        }
     }
-    [self.fileContentView appendText:@"===== Finished =====\n"];
+    [self printRegularText:@"===== Finished =====\n"];
     [self enableAddCustomCssFilesButtonIsNeeded];
 }
 
@@ -103,6 +113,43 @@
 
 - (void)closeButtonPressed:(id)sender {
     [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (NSArray *)allCustomCSSFilePaths {
+    NSMutableArray *allCustomCSSFiles = [NSMutableArray new];
+    NSString *fullPath = [[NSBundle mainBundle] fullPathForFile:self.file];
+    BIEPubFile *epubFile = [BIEPubFile epubFileAtPath:fullPath];
+    BIFontSupportFile *fontSupportFile = epubFile.fontSupportFile;
+    if (!fontSupportFile) {
+        return @[];
+    }
+    NSArray *allOriginalCssFiles = [fontSupportFile allOriginalCSSFiles];
+    for (NSString *originalCSSFile in allOriginalCssFiles) {
+        NSArray *associatedCSSFiles = [fontSupportFile allCustomCSSFilesFor:originalCSSFile];
+        [allCustomCSSFiles addObjectsFromArray:associatedCSSFiles];
+    }
+    return allCustomCSSFiles;
+}
+
+- (void)printRegularText:(NSString *)text {
+    NSDictionary *attributes = @{NSForegroundColorAttributeName : [UIColor blackColor]};
+    [self printText:text withAttributes:attributes];
+}
+
+- (void)printOriginalCSSFilePath:(NSString *)text {
+    NSDictionary *attributes = @{NSForegroundColorAttributeName : [UIColor blueColor]};
+    [self printText:text withAttributes:attributes];
+}
+
+- (void)printCustomCSSFilePath:(NSString *)text {
+    NSDictionary *attributes = @{NSForegroundColorAttributeName : [UIColor greenColor]};
+    [self printText:text withAttributes:attributes];
+}
+
+- (void)printText:(NSString *)text withAttributes:(NSDictionary *)attributes {
+    NSString *modifiedText = [NSString stringWithFormat:@"%@\n", text];
+    NSAttributedString *attributedString = [[NSAttributedString alloc] initWithString:modifiedText attributes:attributes];
+    [self.fileContentView appendText:attributedString];
 }
 
 @end

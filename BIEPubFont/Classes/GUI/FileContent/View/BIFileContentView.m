@@ -34,10 +34,10 @@
     self.textView.frame = [self textViewFrame];
 }
 
-- (void)appendText:(NSString *)text {
-    NSMutableString *mutableString = [NSMutableString stringWithString:self.textView.text];
-    [mutableString appendString:text];
-    self.textView.text = mutableString;
+- (void)appendText:(NSAttributedString *)text {
+    NSMutableAttributedString *mutableString = [[NSMutableAttributedString alloc] initWithAttributedString:self.textView.attributedText];
+    [mutableString appendAttributedString:text];
+    self.textView.attributedText = mutableString;
     NSRange range = NSMakeRange(mutableString.length - 1, 1);
     [self.textView scrollRangeToVisible:range];
 }

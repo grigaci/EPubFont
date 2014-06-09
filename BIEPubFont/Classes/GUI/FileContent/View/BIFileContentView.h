@@ -13,6 +13,6 @@
 @property (nonatomic, strong, readonly) UIButton *addCustomCssFilesButton;
 @property (nonatomic, strong, readonly) UITextView *textView;
 
-- (void)appendText:(NSString *)text;
+- (void)appendText:(NSAttributedString *)text;
 
 @end
