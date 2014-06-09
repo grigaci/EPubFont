@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43D03C4319461AB700B48F94 /* BIFilesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D03C4219461AB700B48F94 /* BIFilesTableViewController.m */; };
+		43D03C4719461C6300B48F94 /* BIFilesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D03C4619461C6300B48F94 /* BIFilesTableViewCell.m */; };
+		43D03C4E1946210300B48F94 /* BIFileContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D03C4D1946210300B48F94 /* BIFileContentViewController.m */; };
+		43D03C511946211A00B48F94 /* BIFileContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D03C501946211A00B48F94 /* BIFileContentView.m */; };
+		43D03C5B194628D600B48F94 /* NSBundle+FullPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D03C5A194628D600B48F94 /* NSBundle+FullPath.m */; };
 		655CF2951945997100505FFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2941945997100505FFA /* Foundation.framework */; };
 		655CF2971945997100505FFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2961945997100505FFA /* CoreGraphics.framework */; };
 		655CF2991945997100505FFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2981945997100505FFA /* UIKit.framework */; };
 		655CF29F1945997100505FFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 655CF29D1945997100505FFA /* InfoPlist.strings */; };
-		655CF2A11945997100505FFA /* BIEPubFont-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2A01945997100505FFA /* BIEPubFont-Prefix.pch */; };
+		655CF2A11945997100505FFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2A01945997100505FFA /* main.m */; };
 		655CF2A51945997100505FFA /* BIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2A41945997100505FFA /* BIAppDelegate.m */; };
-		655CF2AB1945997100505FFA /* BIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2AA1945997100505FFA /* BIViewController.m */; };
 		655CF2AD1945997100505FFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655CF2AC1945997100505FFA /* Images.xcassets */; };
 		655CF2B41945997100505FFA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2B31945997100505FFA /* XCTest.framework */; };
 		655CF2B51945997100505FFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2941945997100505FFA /* Foundation.framework */; };
@@ -62,18 +66,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43D03C4119461AB700B48F94 /* BIFilesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIFilesTableViewController.h; path = Classes/GUI/Files/ViewController/BIFilesTableViewController.h; sourceTree = "<group>"; };
+		43D03C4219461AB700B48F94 /* BIFilesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIFilesTableViewController.m; path = Classes/GUI/Files/ViewController/BIFilesTableViewController.m; sourceTree = "<group>"; };
+		43D03C4519461C6300B48F94 /* BIFilesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIFilesTableViewCell.h; path = Classes/GUI/Files/Cell/BIFilesTableViewCell.h; sourceTree = "<group>"; };
+		43D03C4619461C6300B48F94 /* BIFilesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIFilesTableViewCell.m; path = Classes/GUI/Files/Cell/BIFilesTableViewCell.m; sourceTree = "<group>"; };
+		43D03C4C1946210300B48F94 /* BIFileContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIFileContentViewController.h; path = Classes/GUI/FileContent/ViewController/BIFileContentViewController.h; sourceTree = "<group>"; };
+		43D03C4D1946210300B48F94 /* BIFileContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIFileContentViewController.m; path = Classes/GUI/FileContent/ViewController/BIFileContentViewController.m; sourceTree = "<group>"; };
+		43D03C4F1946211A00B48F94 /* BIFileContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIFileContentView.h; path = Classes/GUI/FileContent/View/BIFileContentView.h; sourceTree = "<group>"; };
+		43D03C501946211A00B48F94 /* BIFileContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIFileContentView.m; path = Classes/GUI/FileContent/View/BIFileContentView.m; sourceTree = "<group>"; };
+		43D03C59194628D600B48F94 /* NSBundle+FullPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSBundle+FullPath.h"; path = "Classes/Helpers/Categories/NSBundle/NSBundle+FullPath.h"; sourceTree = "<group>"; };
+		43D03C5A194628D600B48F94 /* NSBundle+FullPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+FullPath.m"; path = "Classes/Helpers/Categories/NSBundle/NSBundle+FullPath.m"; sourceTree = "<group>"; };
 		655CF2911945997100505FFA /* BIEPubFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BIEPubFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		655CF2941945997100505FFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		655CF2961945997100505FFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		655CF2981945997100505FFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		655CF29C1945997100505FFA /* BIEPubFont-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BIEPubFont-Info.plist"; path = "SupportingFiles/BIEPubFont-Info.plist"; sourceTree = "<group>"; };
 		655CF29E1945997100505FFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		655CF2A01945997100505FFA /* BIEPubFont-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BIEPubFont-Prefix.pch"; path = "SupportingFiles/BIEPubFont-Prefix.pch"; sourceTree = "<group>"; };
-		655CF2A21945997100505FFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFiles/main.m; sourceTree = "<group>"; };
+		655CF2A01945997100505FFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFiles/main.m; sourceTree = "<group>"; };
+		655CF2A21945997100505FFA /* BIEPubFont-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BIEPubFont-Prefix.pch"; path = "SupportingFiles/BIEPubFont-Prefix.pch"; sourceTree = "<group>"; };
 		655CF2A31945997100505FFA /* BIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BIAppDelegate.h; path = Classes/BIAppDelegate.h; sourceTree = "<group>"; };
 		655CF2A41945997100505FFA /* BIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BIAppDelegate.m; path = Classes/BIAppDelegate.m; sourceTree = "<group>"; };
-		655CF2A91945997100505FFA /* BIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BIViewController.h; path = Classes/GUI/Main/ViewController/BIViewController.h; sourceTree = "<group>"; };
-		655CF2AA1945997100505FFA /* BIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BIViewController.m; path = Classes/GUI/Main/ViewController/BIViewController.m; sourceTree = "<group>"; };
 		655CF2AC1945997100505FFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Resources/Images/Images.xcassets; sourceTree = "<group>"; };
 		655CF2B21945997100505FFA /* BIEPubFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BIEPubFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		655CF2B31945997100505FFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -162,6 +174,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43D03C3F19461A7800B48F94 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				43D03C4419461C4900B48F94 /* Cell */,
+				43D03C4019461A8900B48F94 /* ViewController */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		43D03C4019461A8900B48F94 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				43D03C4119461AB700B48F94 /* BIFilesTableViewController.h */,
+				43D03C4219461AB700B48F94 /* BIFilesTableViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		43D03C4419461C4900B48F94 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				43D03C4519461C6300B48F94 /* BIFilesTableViewCell.h */,
+				43D03C4619461C6300B48F94 /* BIFilesTableViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		43D03C49194620AC00B48F94 /* FileContent */ = {
+			isa = PBXGroup;
+			children = (
+				43D03C4B194620E400B48F94 /* VIew */,
+				43D03C4A194620D900B48F94 /* ViewController */,
+			);
+			name = FileContent;
+			sourceTree = "<group>";
+		};
+		43D03C4A194620D900B48F94 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				43D03C4C1946210300B48F94 /* BIFileContentViewController.h */,
+				43D03C4D1946210300B48F94 /* BIFileContentViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		43D03C4B194620E400B48F94 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				43D03C4F1946211A00B48F94 /* BIFileContentView.h */,
+				43D03C501946211A00B48F94 /* BIFileContentView.m */,
+			);
+			name = VIew;
+			sourceTree = "<group>";
+		};
+		43D03C521946264E00B48F94 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				43D03C531946268400B48F94 /* Categories */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		43D03C531946268400B48F94 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				43D03C58194628AD00B48F94 /* NSBundle */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		43D03C58194628AD00B48F94 /* NSBundle */ = {
+			isa = PBXGroup;
+			children = (
+				43D03C59194628D600B48F94 /* NSBundle+FullPath.h */,
+				43D03C5A194628D600B48F94 /* NSBundle+FullPath.m */,
+			);
+			name = NSBundle;
+			sourceTree = "<group>";
+		};
 		655CF2881945997100505FFA = {
 			isa = PBXGroup;
 			children = (
@@ -207,8 +298,8 @@
 			isa = PBXGroup;
 			children = (
 				655CF29C1945997100505FFA /* BIEPubFont-Info.plist */,
-				655CF2A01945997100505FFA /* BIEPubFont-Prefix.pch */,
-				655CF2A21945997100505FFA /* main.m */,
+				655CF2A01945997100505FFA /* main.m */,
+				655CF2A21945997100505FFA /* BIEPubFont-Prefix.pch */,
 			);
 			name = SupportingFiles;
 			sourceTree = "<group>";
@@ -244,6 +335,7 @@
 		655CF2CA19459A8900505FFA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				43D03C521946264E00B48F94 /* Helpers */,
 				655CF31F19459E3900505FFA /* Library */,
 				655CF2CE19459B2200505FFA /* GUI */,
 				655CF2A31945997100505FFA /* BIAppDelegate.h */,
@@ -281,26 +373,10 @@
 		655CF2CE19459B2200505FFA /* GUI */ = {
 			isa = PBXGroup;
 			children = (
-				655CF2CF19459B2500505FFA /* Main */,
+				43D03C49194620AC00B48F94 /* FileContent */,
+				43D03C3F19461A7800B48F94 /* Files */,
 			);
 			name = GUI;
-			sourceTree = "<group>";
-		};
-		655CF2CF19459B2500505FFA /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				655CF2D019459B2700505FFA /* VIewController */,
-			);
-			name = Main;
-			sourceTree = "<group>";
-		};
-		655CF2D019459B2700505FFA /* VIewController */ = {
-			isa = PBXGroup;
-			children = (
-				655CF2A91945997100505FFA /* BIViewController.h */,
-				655CF2AA1945997100505FFA /* BIViewController.m */,
-			);
-			name = VIewController;
 			sourceTree = "<group>";
 		};
 		655CF2D419459C9900505FFA /* MiniZip */ = {
@@ -499,22 +575,26 @@
 				655CF31319459C9900505FFA /* gzlib.c in Sources */,
 				655CF3261945A24C00505FFA /* BIEPubFile.m in Sources */,
 				655CF31819459C9900505FFA /* inflate.c in Sources */,
+				43D03C4E1946210300B48F94 /* BIFileContentViewController.m in Sources */,
 				655CF32F1945AE2B00505FFA /* BIFileHelpers.m in Sources */,
 				655CF31B19459C9900505FFA /* uncompr.c in Sources */,
-				655CF2AB1945997100505FFA /* BIViewController.m in Sources */,
 				655CF31919459C9900505FFA /* inftrees.c in Sources */,
 				655CF31619459C9900505FFA /* infback.c in Sources */,
 				655CF30819459C9900505FFA /* NSError+ObjectiveZip.m in Sources */,
 				655CF30619459C9900505FFA /* unzip.c in Sources */,
 				655CF31419459C9900505FFA /* gzread.c in Sources */,
 				655CF3291945A57C00505FFA /* BIFontSupportFile.m in Sources */,
+				43D03C4319461AB700B48F94 /* BIFilesTableViewController.m in Sources */,
 				655CF31019459C9900505FFA /* crc32.c in Sources */,
+				43D03C511946211A00B48F94 /* BIFileContentView.m in Sources */,
 				655CF30A19459C9900505FFA /* OZFileInZipInfo.m in Sources */,
 				655CF31219459C9900505FFA /* gzclose.c in Sources */,
 				655CF31719459C9900505FFA /* inffast.c in Sources */,
 				655CF30E19459C9900505FFA /* adler32.c in Sources */,
+				43D03C4719461C6300B48F94 /* BIFilesTableViewCell.m in Sources */,
 				655CF30D19459C9900505FFA /* OZZipWriteStream.m in Sources */,
-				655CF2A11945997100505FFA /* BIEPubFont-Prefix.pch in Sources */,
+				43D03C5B194628D600B48F94 /* NSBundle+FullPath.m in Sources */,
+				655CF2A11945997100505FFA /* main.m in Sources */,
 				655CF30719459C9900505FFA /* zip.c in Sources */,
 				655CF32C1945AD1400505FFA /* BICSSFile.m in Sources */,
 				655CF30B19459C9900505FFA /* OZZipFile.m in Sources */,

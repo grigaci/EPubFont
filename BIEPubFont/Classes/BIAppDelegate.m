@@ -7,12 +7,20 @@
 //
 
 #import "BIAppDelegate.h"
+#import "BIFilesTableViewController.h"
+
 
 @implementation BIAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+
+    BIFilesTableViewController *filesViewController = [[BIFilesTableViewController alloc] initWithStyle:UITableViewStylePlain];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:filesViewController];
+    self.window.rootViewController = navController;
+
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							
