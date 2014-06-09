@@ -14,6 +14,7 @@
 		43D03C5B194628D600B48F94 /* NSBundle+FullPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D03C5A194628D600B48F94 /* NSBundle+FullPath.m */; };
 		43D03C5F19463CFE00B48F94 /* NSString+CSSFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D03C5E19463CFE00B48F94 /* NSString+CSSFile.m */; };
 		43D03C631946403000B48F94 /* NSArray+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D03C621946403000B48F94 /* NSArray+Search.m */; };
+		43D03C6719464B6800B48F94 /* EPubs in Resources */ = {isa = PBXBuildFile; fileRef = 43D03C6619464B6800B48F94 /* EPubs */; };
 		655CF2951945997100505FFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2941945997100505FFA /* Foundation.framework */; };
 		655CF2971945997100505FFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2961945997100505FFA /* CoreGraphics.framework */; };
 		655CF2991945997100505FFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2981945997100505FFA /* UIKit.framework */; };
@@ -54,7 +55,6 @@
 		655CF3291945A57C00505FFA /* BIFontSupportFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF3281945A57C00505FFA /* BIFontSupportFile.m */; };
 		655CF32C1945AD1400505FFA /* BICSSFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF32B1945AD1400505FFA /* BICSSFile.m */; };
 		655CF32F1945AE2B00505FFA /* BIFileHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF32E1945AE2B00505FFA /* BIFileHelpers.m */; };
-		655CF3301945C04D00505FFA /* accessible_epub_3-20121024.epub in Resources */ = {isa = PBXBuildFile; fileRef = 655CF31E19459E0F00505FFA /* accessible_epub_3-20121024.epub */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +82,7 @@
 		43D03C5E19463CFE00B48F94 /* NSString+CSSFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+CSSFile.m"; path = "Classes/Helpers/Categories/NSString/NSString+CSSFile.m"; sourceTree = "<group>"; };
 		43D03C611946403000B48F94 /* NSArray+Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Search.h"; path = "Classes/Helpers/Categories/NSArray/NSArray+Search.h"; sourceTree = "<group>"; };
 		43D03C621946403000B48F94 /* NSArray+Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Search.m"; path = "Classes/Helpers/Categories/NSArray/NSArray+Search.m"; sourceTree = "<group>"; };
+		43D03C6619464B6800B48F94 /* EPubs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = EPubs; path = Resources/EPubs; sourceTree = "<group>"; };
 		655CF2911945997100505FFA /* BIEPubFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BIEPubFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		655CF2941945997100505FFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		655CF2961945997100505FFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -144,7 +145,6 @@
 		655CF30219459C9900505FFA /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
 		655CF30319459C9900505FFA /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
 		655CF30419459C9900505FFA /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
-		655CF31E19459E0F00505FFA /* accessible_epub_3-20121024.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "accessible_epub_3-20121024.epub"; path = "Resources/EPubs/accessible_epub_3-20121024.epub"; sourceTree = "<group>"; };
 		655CF32019459EE500505FFA /* BIEPubFontLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BIEPubFontLib.h; path = Classes/Library/BIEPubFontLib.h; sourceTree = "<group>"; };
 		655CF3241945A24C00505FFA /* BIEPubFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIEPubFile.h; path = Classes/Library/BIEPubFile.h; sourceTree = "<group>"; };
 		655CF3251945A24C00505FFA /* BIEPubFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIEPubFile.m; path = Classes/Library/BIEPubFile.m; sourceTree = "<group>"; };
@@ -351,7 +351,7 @@
 		655CF2C919459A5800505FFA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				655CF31D19459E0700505FFA /* EPubs */,
+				43D03C6619464B6800B48F94 /* EPubs */,
 				655CF2CD19459ACB00505FFA /* Localization */,
 				655CF2CC19459ABC00505FFA /* Images */,
 			);
@@ -475,14 +475,6 @@
 			path = Vendors/ZLib;
 			sourceTree = "<group>";
 		};
-		655CF31D19459E0700505FFA /* EPubs */ = {
-			isa = PBXGroup;
-			children = (
-				655CF31E19459E0F00505FFA /* accessible_epub_3-20121024.epub */,
-			);
-			name = EPubs;
-			sourceTree = "<group>";
-		};
 		655CF31F19459E3900505FFA /* Library */ = {
 			isa = PBXGroup;
 			children = (
@@ -576,8 +568,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D03C6719464B6800B48F94 /* EPubs in Resources */,
 				655CF2AD1945997100505FFA /* Images.xcassets in Resources */,
-				655CF3301945C04D00505FFA /* accessible_epub_3-20121024.epub in Resources */,
 				655CF29F1945997100505FFA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
