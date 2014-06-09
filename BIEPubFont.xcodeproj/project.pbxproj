@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		655CF2951945997100505FFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2941945997100505FFA /* Foundation.framework */; };
+		655CF2971945997100505FFA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2961945997100505FFA /* CoreGraphics.framework */; };
+		655CF2991945997100505FFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2981945997100505FFA /* UIKit.framework */; };
+		655CF29F1945997100505FFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 655CF29D1945997100505FFA /* InfoPlist.strings */; };
+		655CF2A11945997100505FFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2A01945997100505FFA /* main.m */; };
+		655CF2A51945997100505FFA /* BIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2A41945997100505FFA /* BIAppDelegate.m */; };
+		655CF2AB1945997100505FFA /* BIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2AA1945997100505FFA /* BIViewController.m */; };
+		655CF2AD1945997100505FFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655CF2AC1945997100505FFA /* Images.xcassets */; };
+		655CF2B41945997100505FFA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2B31945997100505FFA /* XCTest.framework */; };
+		655CF2B51945997100505FFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2941945997100505FFA /* Foundation.framework */; };
+		655CF2B61945997100505FFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2981945997100505FFA /* UIKit.framework */; };
+		655CF2BE1945997100505FFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 655CF2BC1945997100505FFA /* InfoPlist.strings */; };
+		655CF2C01945997100505FFA /* BIEPubFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2BF1945997100505FFA /* BIEPubFontTests.m */; };
+		655CF2D319459B8800505FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655CF2D219459B8800505FFA /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		655CF2B71945997100505FFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 655CF2891945997100505FFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 655CF2901945997100505FFA;
+			remoteInfo = BIEPubFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		655CF2911945997100505FFA /* BIEPubFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BIEPubFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		655CF2941945997100505FFA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		655CF2961945997100505FFA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		655CF2981945997100505FFA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		655CF29C1945997100505FFA /* BIEPubFont-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BIEPubFont-Info.plist"; path = "SupportingFiles/BIEPubFont-Info.plist"; sourceTree = "<group>"; };
+		655CF29E1945997100505FFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		655CF2A01945997100505FFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFiles/main.m; sourceTree = "<group>"; };
+		655CF2A21945997100505FFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFiles/main.m; sourceTree = "<group>"; };
+		655CF2A31945997100505FFA /* BIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BIAppDelegate.h; path = Classes/BIAppDelegate.h; sourceTree = "<group>"; };
+		655CF2A41945997100505FFA /* BIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BIAppDelegate.m; path = Classes/BIAppDelegate.m; sourceTree = "<group>"; };
+		655CF2A91945997100505FFA /* BIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BIViewController.h; path = Classes/GUI/Main/ViewController/BIViewController.h; sourceTree = "<group>"; };
+		655CF2AA1945997100505FFA /* BIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BIViewController.m; path = Classes/GUI/Main/ViewController/BIViewController.m; sourceTree = "<group>"; };
+		655CF2AC1945997100505FFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Resources/Images/Images.xcassets; sourceTree = "<group>"; };
+		655CF2B21945997100505FFA /* BIEPubFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BIEPubFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		655CF2B31945997100505FFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		655CF2BB1945997100505FFA /* BIEPubFontTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BIEPubFontTests-Info.plist"; sourceTree = "<group>"; };
+		655CF2BD1945997100505FFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		655CF2BF1945997100505FFA /* BIEPubFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIEPubFontTests.m; sourceTree = "<group>"; };
+		655CF2D219459B8800505FFA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Classes/GUI/Main/Storyboard/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		655CF28E1945997100505FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655CF2971945997100505FFA /* CoreGraphics.framework in Frameworks */,
+				655CF2991945997100505FFA /* UIKit.framework in Frameworks */,
+				655CF2951945997100505FFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655CF2AF1945997100505FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655CF2B41945997100505FFA /* XCTest.framework in Frameworks */,
+				655CF2B61945997100505FFA /* UIKit.framework in Frameworks */,
+				655CF2B51945997100505FFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		655CF2881945997100505FFA = {
+			isa = PBXGroup;
+			children = (
+				655CF29A1945997100505FFA /* BIEPubFont */,
+				655CF2B91945997100505FFA /* BIEPubFontTests */,
+				655CF2931945997100505FFA /* Frameworks */,
+				655CF2921945997100505FFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		655CF2921945997100505FFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				655CF2911945997100505FFA /* BIEPubFont.app */,
+				655CF2B21945997100505FFA /* BIEPubFontTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		655CF2931945997100505FFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				655CF2941945997100505FFA /* Foundation.framework */,
+				655CF2961945997100505FFA /* CoreGraphics.framework */,
+				655CF2981945997100505FFA /* UIKit.framework */,
+				655CF2B31945997100505FFA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		655CF29A1945997100505FFA /* BIEPubFont */ = {
+			isa = PBXGroup;
+			children = (
+				655CF2CB19459A9100505FFA /* Vendors */,
+				655CF2CA19459A8900505FFA /* Classes */,
+				655CF2C919459A5800505FFA /* Resources */,
+				655CF29B1945997100505FFA /* SupportingFiles */,
+			);
+			path = BIEPubFont;
+			sourceTree = "<group>";
+		};
+		655CF29B1945997100505FFA /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				655CF29C1945997100505FFA /* BIEPubFont-Info.plist */,
+				655CF2A01945997100505FFA /* main.m */,
+				655CF2A21945997100505FFA /* main.m */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		655CF2B91945997100505FFA /* BIEPubFontTests */ = {
+			isa = PBXGroup;
+			children = (
+				655CF2BF1945997100505FFA /* BIEPubFontTests.m */,
+				655CF2BA1945997100505FFA /* Supporting Files */,
+			);
+			path = BIEPubFontTests;
+			sourceTree = "<group>";
+		};
+		655CF2BA1945997100505FFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				655CF2BB1945997100505FFA /* BIEPubFontTests-Info.plist */,
+				655CF2BC1945997100505FFA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		655CF2C919459A5800505FFA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				655CF2CD19459ACB00505FFA /* Localization */,
+				655CF2CC19459ABC00505FFA /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		655CF2CA19459A8900505FFA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				655CF2CE19459B2200505FFA /* GUI */,
+				655CF2A31945997100505FFA /* BIAppDelegate.h */,
+				655CF2A41945997100505FFA /* BIAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		655CF2CB19459A9100505FFA /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		655CF2CC19459ABC00505FFA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				655CF2AC1945997100505FFA /* Images.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		655CF2CD19459ACB00505FFA /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				655CF29D1945997100505FFA /* InfoPlist.strings */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		655CF2CE19459B2200505FFA /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				655CF2D119459B5300505FFA /* Storyboard */,
+				655CF2CF19459B2500505FFA /* Main */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		655CF2CF19459B2500505FFA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				655CF2D019459B2700505FFA /* VIewController */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		655CF2D019459B2700505FFA /* VIewController */ = {
+			isa = PBXGroup;
+			children = (
+				655CF2A91945997100505FFA /* BIViewController.h */,
+				655CF2AA1945997100505FFA /* BIViewController.m */,
+			);
+			name = VIewController;
+			sourceTree = "<group>";
+		};
+		655CF2D119459B5300505FFA /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				655CF2D219459B8800505FFA /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		655CF2901945997100505FFA /* BIEPubFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655CF2C31945997100505FFA /* Build configuration list for PBXNativeTarget "BIEPubFont" */;
+			buildPhases = (
+				655CF28D1945997100505FFA /* Sources */,
+				655CF28E1945997100505FFA /* Frameworks */,
+				655CF28F1945997100505FFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BIEPubFont;
+			productName = BIEPubFont;
+			productReference = 655CF2911945997100505FFA /* BIEPubFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+		655CF2B11945997100505FFA /* BIEPubFontTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655CF2C61945997100505FFA /* Build configuration list for PBXNativeTarget "BIEPubFontTests" */;
+			buildPhases = (
+				655CF2AE1945997100505FFA /* Sources */,
+				655CF2AF1945997100505FFA /* Frameworks */,
+				655CF2B01945997100505FFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				655CF2B81945997100505FFA /* PBXTargetDependency */,
+			);
+			name = BIEPubFontTests;
+			productName = BIEPubFontTests;
+			productReference = 655CF2B21945997100505FFA /* BIEPubFontTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		655CF2891945997100505FFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Grigaci;
+				TargetAttributes = {
+					655CF2B11945997100505FFA = {
+						TestTargetID = 655CF2901945997100505FFA;
+					};
+				};
+			};
+			buildConfigurationList = 655CF28C1945997100505FFA /* Build configuration list for PBXProject "BIEPubFont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 655CF2881945997100505FFA;
+			productRefGroup = 655CF2921945997100505FFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				655CF2901945997100505FFA /* BIEPubFont */,
+				655CF2B11945997100505FFA /* BIEPubFontTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		655CF28F1945997100505FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655CF2D319459B8800505FFA /* Main.storyboard in Resources */,
+				655CF2AD1945997100505FFA /* Images.xcassets in Resources */,
+				655CF29F1945997100505FFA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655CF2B01945997100505FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655CF2BE1945997100505FFA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		655CF28D1945997100505FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655CF2AB1945997100505FFA /* BIViewController.m in Sources */,
+				655CF2A11945997100505FFA /* main.m in Sources */,
+				655CF2A51945997100505FFA /* BIAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655CF2AE1945997100505FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655CF2C01945997100505FFA /* BIEPubFontTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		655CF2B81945997100505FFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 655CF2901945997100505FFA /* BIEPubFont */;
+			targetProxy = 655CF2B71945997100505FFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		655CF29D1945997100505FFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655CF29E1945997100505FFA /* en */,
+			);
+			name = InfoPlist.strings;
+			path = Resources/Localization;
+			sourceTree = "<group>";
+		};
+		655CF2BC1945997100505FFA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655CF2BD1945997100505FFA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		655CF2C11945997100505FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		655CF2C21945997100505FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		655CF2C41945997100505FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BIEPubFont/SupportingFiles/BIEPubFont-Prefix.pch";
+				INFOPLIST_FILE = "BIEPubFont/SupportingFiles/BIEPubFont-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		655CF2C51945997100505FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BIEPubFont/SupportingFiles/BIEPubFont-Prefix.pch";
+				INFOPLIST_FILE = "BIEPubFont/SupportingFiles/BIEPubFont-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		655CF2C71945997100505FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BIEPubFont.app/BIEPubFont";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BIEPubFont/BIEPubFont-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BIEPubFontTests/BIEPubFontTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		655CF2C81945997100505FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BIEPubFont.app/BIEPubFont";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BIEPubFont/BIEPubFont-Prefix.pch";
+				INFOPLIST_FILE = "BIEPubFontTests/BIEPubFontTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		655CF28C1945997100505FFA /* Build configuration list for PBXProject "BIEPubFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655CF2C11945997100505FFA /* Debug */,
+				655CF2C21945997100505FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655CF2C31945997100505FFA /* Build configuration list for PBXNativeTarget "BIEPubFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655CF2C41945997100505FFA /* Debug */,
+				655CF2C51945997100505FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655CF2C61945997100505FFA /* Build configuration list for PBXNativeTarget "BIEPubFontTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655CF2C71945997100505FFA /* Debug */,
+				655CF2C81945997100505FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 655CF2891945997100505FFA /* Project object */;
+}
