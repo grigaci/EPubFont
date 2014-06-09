@@ -123,6 +123,7 @@
 		655CF30219459C9900505FFA /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
 		655CF30319459C9900505FFA /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
 		655CF30419459C9900505FFA /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
+		655CF31E19459E0F00505FFA /* accessible_epub_3-20121024.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "accessible_epub_3-20121024.epub"; path = "Resources/EPubs/accessible_epub_3-20121024.epub"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +222,7 @@
 		655CF2C919459A5800505FFA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				655CF31D19459E0700505FFA /* EPubs */,
 				655CF2CD19459ACB00505FFA /* Localization */,
 				655CF2CC19459ABC00505FFA /* Images */,
 			);
@@ -365,6 +367,14 @@
 			);
 			name = ZLib;
 			path = Vendors/ZLib;
+			sourceTree = "<group>";
+		};
+		655CF31D19459E0700505FFA /* EPubs */ = {
+			isa = PBXGroup;
+			children = (
+				655CF31E19459E0F00505FFA /* accessible_epub_3-20121024.epub */,
+			);
+			name = EPubs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
