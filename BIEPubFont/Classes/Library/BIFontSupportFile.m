@@ -65,11 +65,11 @@
 
 - (void)readDataFromZipStream:(OZZipReadStream *)readStream {
     const NSUInteger size = 1024;
-    NSMutableData *mutableData = [[NSMutableData alloc] initWithLength:size];
+    NSMutableData *mutableData = [NSMutableData new];
     NSInteger readBytes;
     do {
         NSMutableData *tempBuffer = [[NSMutableData alloc] initWithLength:size];
-         readBytes = [readStream readDataWithBuffer:mutableData error:nil];
+         readBytes = [readStream readDataWithBuffer:tempBuffer error:nil];
         tempBuffer.length = readBytes;
         [mutableData appendData:tempBuffer];
     } while (readBytes > 0);
