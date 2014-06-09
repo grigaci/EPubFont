@@ -45,6 +45,11 @@
 		655CF31A19459C9900505FFA /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2FE19459C9900505FFA /* trees.c */; };
 		655CF31B19459C9900505FFA /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF30019459C9900505FFA /* uncompr.c */; };
 		655CF31C19459C9900505FFA /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF30319459C9900505FFA /* zutil.c */; };
+		655CF3261945A24C00505FFA /* BIEPubFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF3251945A24C00505FFA /* BIEPubFile.m */; };
+		655CF3291945A57C00505FFA /* BIFontSupportFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF3281945A57C00505FFA /* BIFontSupportFile.m */; };
+		655CF32C1945AD1400505FFA /* BICSSFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF32B1945AD1400505FFA /* BICSSFile.m */; };
+		655CF32F1945AE2B00505FFA /* BIFileHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF32E1945AE2B00505FFA /* BIFileHelpers.m */; };
+		655CF3301945C04D00505FFA /* accessible_epub_3-20121024.epub in Resources */ = {isa = PBXBuildFile; fileRef = 655CF31E19459E0F00505FFA /* accessible_epub_3-20121024.epub */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +129,15 @@
 		655CF30319459C9900505FFA /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
 		655CF30419459C9900505FFA /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
 		655CF31E19459E0F00505FFA /* accessible_epub_3-20121024.epub */ = {isa = PBXFileReference; lastKnownFileType = file; name = "accessible_epub_3-20121024.epub"; path = "Resources/EPubs/accessible_epub_3-20121024.epub"; sourceTree = "<group>"; };
+		655CF32019459EE500505FFA /* BIEPubFontLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BIEPubFontLib.h; path = Classes/Library/BIEPubFontLib.h; sourceTree = "<group>"; };
+		655CF3241945A24C00505FFA /* BIEPubFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIEPubFile.h; path = Classes/Library/BIEPubFile.h; sourceTree = "<group>"; };
+		655CF3251945A24C00505FFA /* BIEPubFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIEPubFile.m; path = Classes/Library/BIEPubFile.m; sourceTree = "<group>"; };
+		655CF3271945A57C00505FFA /* BIFontSupportFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIFontSupportFile.h; path = Classes/Library/BIFontSupportFile.h; sourceTree = "<group>"; };
+		655CF3281945A57C00505FFA /* BIFontSupportFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIFontSupportFile.m; path = Classes/Library/BIFontSupportFile.m; sourceTree = "<group>"; };
+		655CF32A1945AD1400505FFA /* BICSSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BICSSFile.h; path = Classes/Library/BICSSFile.h; sourceTree = "<group>"; };
+		655CF32B1945AD1400505FFA /* BICSSFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BICSSFile.m; path = Classes/Library/BICSSFile.m; sourceTree = "<group>"; };
+		655CF32D1945AE2B00505FFA /* BIFileHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIFileHelpers.h; path = Classes/Library/BIFileHelpers.h; sourceTree = "<group>"; };
+		655CF32E1945AE2B00505FFA /* BIFileHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIFileHelpers.m; path = Classes/Library/BIFileHelpers.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +246,7 @@
 		655CF2CA19459A8900505FFA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				655CF31F19459E3900505FFA /* Library */,
 				655CF2CE19459B2200505FFA /* GUI */,
 				655CF2A31945997100505FFA /* BIAppDelegate.h */,
 				655CF2A41945997100505FFA /* BIAppDelegate.m */,
@@ -377,6 +392,22 @@
 			name = EPubs;
 			sourceTree = "<group>";
 		};
+		655CF31F19459E3900505FFA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				655CF32019459EE500505FFA /* BIEPubFontLib.h */,
+				655CF3241945A24C00505FFA /* BIEPubFile.h */,
+				655CF3251945A24C00505FFA /* BIEPubFile.m */,
+				655CF3271945A57C00505FFA /* BIFontSupportFile.h */,
+				655CF3281945A57C00505FFA /* BIFontSupportFile.m */,
+				655CF32A1945AD1400505FFA /* BICSSFile.h */,
+				655CF32B1945AD1400505FFA /* BICSSFile.m */,
+				655CF32D1945AE2B00505FFA /* BIFileHelpers.h */,
+				655CF32E1945AE2B00505FFA /* BIFileHelpers.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -456,6 +487,7 @@
 			files = (
 				655CF2D319459B8800505FFA /* Main.storyboard in Resources */,
 				655CF2AD1945997100505FFA /* Images.xcassets in Resources */,
+				655CF3301945C04D00505FFA /* accessible_epub_3-20121024.epub in Resources */,
 				655CF29F1945997100505FFA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,7 +509,9 @@
 			files = (
 				655CF31C19459C9900505FFA /* zutil.c in Sources */,
 				655CF31319459C9900505FFA /* gzlib.c in Sources */,
+				655CF3261945A24C00505FFA /* BIEPubFile.m in Sources */,
 				655CF31819459C9900505FFA /* inflate.c in Sources */,
+				655CF32F1945AE2B00505FFA /* BIFileHelpers.m in Sources */,
 				655CF31B19459C9900505FFA /* uncompr.c in Sources */,
 				655CF2AB1945997100505FFA /* BIViewController.m in Sources */,
 				655CF31919459C9900505FFA /* inftrees.c in Sources */,
@@ -485,6 +519,7 @@
 				655CF30819459C9900505FFA /* NSError+ObjectiveZip.m in Sources */,
 				655CF30619459C9900505FFA /* unzip.c in Sources */,
 				655CF31419459C9900505FFA /* gzread.c in Sources */,
+				655CF3291945A57C00505FFA /* BIFontSupportFile.m in Sources */,
 				655CF31019459C9900505FFA /* crc32.c in Sources */,
 				655CF30A19459C9900505FFA /* OZFileInZipInfo.m in Sources */,
 				655CF31219459C9900505FFA /* gzclose.c in Sources */,
@@ -493,6 +528,7 @@
 				655CF30D19459C9900505FFA /* OZZipWriteStream.m in Sources */,
 				655CF2A11945997100505FFA /* main.m in Sources */,
 				655CF30719459C9900505FFA /* zip.c in Sources */,
+				655CF32C1945AD1400505FFA /* BICSSFile.m in Sources */,
 				655CF30B19459C9900505FFA /* OZZipFile.m in Sources */,
 				655CF30C19459C9900505FFA /* OZZipReadStream.m in Sources */,
 				655CF31519459C9900505FFA /* gzwrite.c in Sources */,
