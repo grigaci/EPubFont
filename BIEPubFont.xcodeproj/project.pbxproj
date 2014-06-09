@@ -21,6 +21,30 @@
 		655CF2BE1945997100505FFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 655CF2BC1945997100505FFA /* InfoPlist.strings */; };
 		655CF2C01945997100505FFA /* BIEPubFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2BF1945997100505FFA /* BIEPubFontTests.m */; };
 		655CF2D319459B8800505FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655CF2D219459B8800505FFA /* Main.storyboard */; };
+		655CF30519459C9900505FFA /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2D619459C9900505FFA /* ioapi.c */; };
+		655CF30619459C9900505FFA /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2D819459C9900505FFA /* unzip.c */; };
+		655CF30719459C9900505FFA /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2DA19459C9900505FFA /* zip.c */; };
+		655CF30819459C9900505FFA /* NSError+ObjectiveZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2DE19459C9900505FFA /* NSError+ObjectiveZip.m */; };
+		655CF30919459C9900505FFA /* OZConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2E019459C9900505FFA /* OZConstants.m */; };
+		655CF30A19459C9900505FFA /* OZFileInZipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2E219459C9900505FFA /* OZFileInZipInfo.m */; };
+		655CF30B19459C9900505FFA /* OZZipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2E519459C9900505FFA /* OZZipFile.m */; };
+		655CF30C19459C9900505FFA /* OZZipReadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2E719459C9900505FFA /* OZZipReadStream.m */; };
+		655CF30D19459C9900505FFA /* OZZipWriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2E919459C9900505FFA /* OZZipWriteStream.m */; };
+		655CF30E19459C9900505FFA /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2EB19459C9900505FFA /* adler32.c */; };
+		655CF30F19459C9900505FFA /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2EC19459C9900505FFA /* compress.c */; };
+		655CF31019459C9900505FFA /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2ED19459C9900505FFA /* crc32.c */; };
+		655CF31119459C9900505FFA /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2EF19459C9900505FFA /* deflate.c */; };
+		655CF31219459C9900505FFA /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2F119459C9900505FFA /* gzclose.c */; };
+		655CF31319459C9900505FFA /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2F319459C9900505FFA /* gzlib.c */; };
+		655CF31419459C9900505FFA /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2F419459C9900505FFA /* gzread.c */; };
+		655CF31519459C9900505FFA /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2F519459C9900505FFA /* gzwrite.c */; };
+		655CF31619459C9900505FFA /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2F619459C9900505FFA /* infback.c */; };
+		655CF31719459C9900505FFA /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2F719459C9900505FFA /* inffast.c */; };
+		655CF31819459C9900505FFA /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2FA19459C9900505FFA /* inflate.c */; };
+		655CF31919459C9900505FFA /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2FC19459C9900505FFA /* inftrees.c */; };
+		655CF31A19459C9900505FFA /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2FE19459C9900505FFA /* trees.c */; };
+		655CF31B19459C9900505FFA /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF30019459C9900505FFA /* uncompr.c */; };
+		655CF31C19459C9900505FFA /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF30319459C9900505FFA /* zutil.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +77,52 @@
 		655CF2BD1945997100505FFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		655CF2BF1945997100505FFA /* BIEPubFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIEPubFontTests.m; sourceTree = "<group>"; };
 		655CF2D219459B8800505FFA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Classes/GUI/Main/Storyboard/Main.storyboard; sourceTree = "<group>"; };
+		655CF2D519459C9900505FFA /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		655CF2D619459C9900505FFA /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		655CF2D719459C9900505FFA /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		655CF2D819459C9900505FFA /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		655CF2D919459C9900505FFA /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		655CF2DA19459C9900505FFA /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		655CF2DB19459C9900505FFA /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		655CF2DD19459C9900505FFA /* NSError+ObjectiveZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+ObjectiveZip.h"; sourceTree = "<group>"; };
+		655CF2DE19459C9900505FFA /* NSError+ObjectiveZip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+ObjectiveZip.m"; sourceTree = "<group>"; };
+		655CF2DF19459C9900505FFA /* OZConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZConstants.h; sourceTree = "<group>"; };
+		655CF2E019459C9900505FFA /* OZConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZConstants.m; sourceTree = "<group>"; };
+		655CF2E119459C9900505FFA /* OZFileInZipInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZFileInZipInfo.h; sourceTree = "<group>"; };
+		655CF2E219459C9900505FFA /* OZFileInZipInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZFileInZipInfo.m; sourceTree = "<group>"; };
+		655CF2E319459C9900505FFA /* OZLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZLib.h; sourceTree = "<group>"; };
+		655CF2E419459C9900505FFA /* OZZipFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZZipFile.h; sourceTree = "<group>"; };
+		655CF2E519459C9900505FFA /* OZZipFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZZipFile.m; sourceTree = "<group>"; };
+		655CF2E619459C9900505FFA /* OZZipReadStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZZipReadStream.h; sourceTree = "<group>"; };
+		655CF2E719459C9900505FFA /* OZZipReadStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZZipReadStream.m; sourceTree = "<group>"; };
+		655CF2E819459C9900505FFA /* OZZipWriteStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZZipWriteStream.h; sourceTree = "<group>"; };
+		655CF2E919459C9900505FFA /* OZZipWriteStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZZipWriteStream.m; sourceTree = "<group>"; };
+		655CF2EB19459C9900505FFA /* adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adler32.c; sourceTree = "<group>"; };
+		655CF2EC19459C9900505FFA /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
+		655CF2ED19459C9900505FFA /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crc32.c; sourceTree = "<group>"; };
+		655CF2EE19459C9900505FFA /* crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crc32.h; sourceTree = "<group>"; };
+		655CF2EF19459C9900505FFA /* deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deflate.c; sourceTree = "<group>"; };
+		655CF2F019459C9900505FFA /* deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deflate.h; sourceTree = "<group>"; };
+		655CF2F119459C9900505FFA /* gzclose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzclose.c; sourceTree = "<group>"; };
+		655CF2F219459C9900505FFA /* gzguts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gzguts.h; sourceTree = "<group>"; };
+		655CF2F319459C9900505FFA /* gzlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzlib.c; sourceTree = "<group>"; };
+		655CF2F419459C9900505FFA /* gzread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzread.c; sourceTree = "<group>"; };
+		655CF2F519459C9900505FFA /* gzwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzwrite.c; sourceTree = "<group>"; };
+		655CF2F619459C9900505FFA /* infback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = infback.c; sourceTree = "<group>"; };
+		655CF2F719459C9900505FFA /* inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inffast.c; sourceTree = "<group>"; };
+		655CF2F819459C9900505FFA /* inffast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffast.h; sourceTree = "<group>"; };
+		655CF2F919459C9900505FFA /* inffixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffixed.h; sourceTree = "<group>"; };
+		655CF2FA19459C9900505FFA /* inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inflate.c; sourceTree = "<group>"; };
+		655CF2FB19459C9900505FFA /* inflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inflate.h; sourceTree = "<group>"; };
+		655CF2FC19459C9900505FFA /* inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inftrees.c; sourceTree = "<group>"; };
+		655CF2FD19459C9900505FFA /* inftrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inftrees.h; sourceTree = "<group>"; };
+		655CF2FE19459C9900505FFA /* trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trees.c; sourceTree = "<group>"; };
+		655CF2FF19459C9900505FFA /* trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trees.h; sourceTree = "<group>"; };
+		655CF30019459C9900505FFA /* uncompr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uncompr.c; sourceTree = "<group>"; };
+		655CF30119459C9900505FFA /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
+		655CF30219459C9900505FFA /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
+		655CF30319459C9900505FFA /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
+		655CF30419459C9900505FFA /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +182,9 @@
 		655CF29A1945997100505FFA /* BIEPubFont */ = {
 			isa = PBXGroup;
 			children = (
-				655CF2CB19459A9100505FFA /* Vendors */,
 				655CF2CA19459A8900505FFA /* Classes */,
 				655CF2C919459A5800505FFA /* Resources */,
+				655CF2CB19459A9100505FFA /* Vendors */,
 				655CF29B1945997100505FFA /* SupportingFiles */,
 			);
 			path = BIEPubFont;
@@ -170,6 +240,9 @@
 		655CF2CB19459A9100505FFA /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				655CF2D419459C9900505FFA /* MiniZip */,
+				655CF2DC19459C9900505FFA /* Objective-Zip */,
+				655CF2EA19459C9900505FFA /* ZLib */,
 			);
 			name = Vendors;
 			sourceTree = "<group>";
@@ -222,6 +295,76 @@
 				655CF2D219459B8800505FFA /* Main.storyboard */,
 			);
 			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		655CF2D419459C9900505FFA /* MiniZip */ = {
+			isa = PBXGroup;
+			children = (
+				655CF2D519459C9900505FFA /* crypt.h */,
+				655CF2D619459C9900505FFA /* ioapi.c */,
+				655CF2D719459C9900505FFA /* ioapi.h */,
+				655CF2D819459C9900505FFA /* unzip.c */,
+				655CF2D919459C9900505FFA /* unzip.h */,
+				655CF2DA19459C9900505FFA /* zip.c */,
+				655CF2DB19459C9900505FFA /* zip.h */,
+			);
+			name = MiniZip;
+			path = Vendors/MiniZip;
+			sourceTree = "<group>";
+		};
+		655CF2DC19459C9900505FFA /* Objective-Zip */ = {
+			isa = PBXGroup;
+			children = (
+				655CF2DD19459C9900505FFA /* NSError+ObjectiveZip.h */,
+				655CF2DE19459C9900505FFA /* NSError+ObjectiveZip.m */,
+				655CF2DF19459C9900505FFA /* OZConstants.h */,
+				655CF2E019459C9900505FFA /* OZConstants.m */,
+				655CF2E119459C9900505FFA /* OZFileInZipInfo.h */,
+				655CF2E219459C9900505FFA /* OZFileInZipInfo.m */,
+				655CF2E319459C9900505FFA /* OZLib.h */,
+				655CF2E419459C9900505FFA /* OZZipFile.h */,
+				655CF2E519459C9900505FFA /* OZZipFile.m */,
+				655CF2E619459C9900505FFA /* OZZipReadStream.h */,
+				655CF2E719459C9900505FFA /* OZZipReadStream.m */,
+				655CF2E819459C9900505FFA /* OZZipWriteStream.h */,
+				655CF2E919459C9900505FFA /* OZZipWriteStream.m */,
+			);
+			name = "Objective-Zip";
+			path = "Vendors/Objective-Zip";
+			sourceTree = "<group>";
+		};
+		655CF2EA19459C9900505FFA /* ZLib */ = {
+			isa = PBXGroup;
+			children = (
+				655CF2EB19459C9900505FFA /* adler32.c */,
+				655CF2EC19459C9900505FFA /* compress.c */,
+				655CF2ED19459C9900505FFA /* crc32.c */,
+				655CF2EE19459C9900505FFA /* crc32.h */,
+				655CF2EF19459C9900505FFA /* deflate.c */,
+				655CF2F019459C9900505FFA /* deflate.h */,
+				655CF2F119459C9900505FFA /* gzclose.c */,
+				655CF2F219459C9900505FFA /* gzguts.h */,
+				655CF2F319459C9900505FFA /* gzlib.c */,
+				655CF2F419459C9900505FFA /* gzread.c */,
+				655CF2F519459C9900505FFA /* gzwrite.c */,
+				655CF2F619459C9900505FFA /* infback.c */,
+				655CF2F719459C9900505FFA /* inffast.c */,
+				655CF2F819459C9900505FFA /* inffast.h */,
+				655CF2F919459C9900505FFA /* inffixed.h */,
+				655CF2FA19459C9900505FFA /* inflate.c */,
+				655CF2FB19459C9900505FFA /* inflate.h */,
+				655CF2FC19459C9900505FFA /* inftrees.c */,
+				655CF2FD19459C9900505FFA /* inftrees.h */,
+				655CF2FE19459C9900505FFA /* trees.c */,
+				655CF2FF19459C9900505FFA /* trees.h */,
+				655CF30019459C9900505FFA /* uncompr.c */,
+				655CF30119459C9900505FFA /* zconf.h */,
+				655CF30219459C9900505FFA /* zlib.h */,
+				655CF30319459C9900505FFA /* zutil.c */,
+				655CF30419459C9900505FFA /* zutil.h */,
+			);
+			name = ZLib;
+			path = Vendors/ZLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,9 +465,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				655CF31C19459C9900505FFA /* zutil.c in Sources */,
+				655CF31319459C9900505FFA /* gzlib.c in Sources */,
+				655CF31819459C9900505FFA /* inflate.c in Sources */,
+				655CF31B19459C9900505FFA /* uncompr.c in Sources */,
 				655CF2AB1945997100505FFA /* BIViewController.m in Sources */,
+				655CF31919459C9900505FFA /* inftrees.c in Sources */,
+				655CF31619459C9900505FFA /* infback.c in Sources */,
+				655CF30819459C9900505FFA /* NSError+ObjectiveZip.m in Sources */,
+				655CF30619459C9900505FFA /* unzip.c in Sources */,
+				655CF31419459C9900505FFA /* gzread.c in Sources */,
+				655CF31019459C9900505FFA /* crc32.c in Sources */,
+				655CF30A19459C9900505FFA /* OZFileInZipInfo.m in Sources */,
+				655CF31219459C9900505FFA /* gzclose.c in Sources */,
+				655CF31719459C9900505FFA /* inffast.c in Sources */,
+				655CF30E19459C9900505FFA /* adler32.c in Sources */,
+				655CF30D19459C9900505FFA /* OZZipWriteStream.m in Sources */,
 				655CF2A11945997100505FFA /* main.m in Sources */,
+				655CF30719459C9900505FFA /* zip.c in Sources */,
+				655CF30B19459C9900505FFA /* OZZipFile.m in Sources */,
+				655CF30C19459C9900505FFA /* OZZipReadStream.m in Sources */,
+				655CF31519459C9900505FFA /* gzwrite.c in Sources */,
+				655CF30519459C9900505FFA /* ioapi.c in Sources */,
+				655CF30919459C9900505FFA /* OZConstants.m in Sources */,
 				655CF2A51945997100505FFA /* BIAppDelegate.m in Sources */,
+				655CF30F19459C9900505FFA /* compress.c in Sources */,
+				655CF31A19459C9900505FFA /* trees.c in Sources */,
+				655CF31119459C9900505FFA /* deflate.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
