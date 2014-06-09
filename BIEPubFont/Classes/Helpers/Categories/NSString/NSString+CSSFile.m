@@ -2,7 +2,7 @@
 //  NSString+CSSFile.m
 //  BIEPubFont
 //
-//  Created by bogdan on 09/06/14.
+//  Created by Bogdan Iusco on 09/06/14.
 //  Copyright (c) 2014 Grigaci. All rights reserved.
 //
 

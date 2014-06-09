@@ -13,7 +13,7 @@
 - (NSString *)fullPathForFile:(NSString *)fileName {
     NSString *extension = [fileName pathExtension];
     NSString *fileWithoutExtension = [fileName stringByDeletingPathExtension];
-    NSString *fullPath = [self pathForResource:fileWithoutExtension ofType:extension];
+    NSString *fullPath = [self pathForResource:fileWithoutExtension ofType:extension inDirectory:@"EPubs"];
     return fullPath;
 }
 

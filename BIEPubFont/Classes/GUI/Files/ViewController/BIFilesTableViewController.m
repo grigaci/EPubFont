@@ -78,7 +78,9 @@
 
 - (NSOrderedSet *)files {
     if (!_files) {
-        _files = [NSOrderedSet orderedSetWithObjects:@"accessible_epub_3-20121024.epub", nil];
+        NSString *folderPath = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"EPubs"];
+        NSArray *folderContent = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:folderPath error:nil];
+        _files = [NSOrderedSet orderedSetWithArray:folderContent];
     }
     return _files;
 }
