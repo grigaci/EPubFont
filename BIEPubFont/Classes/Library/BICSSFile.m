@@ -68,8 +68,10 @@ const NSUInteger kBufferReadBytesCount = 100;
     NSMutableString *stringToParse = [NSMutableString new];
     while ([data length] > 0) {
         NSString *readString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-        [stringToParse appendString:readString];
-        
+        if (readString) {
+            [stringToParse appendString:readString];
+        }
+
         NSMutableArray *cssClasses = [[stringToParse componentsSeparatedByString:kCSSClassEndCharacter] mutableCopy];
         NSString *lastCssClass = [cssClasses lastObject];
         if (lastCssClass) {
