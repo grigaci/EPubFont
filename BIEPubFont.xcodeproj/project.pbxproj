@@ -26,35 +26,38 @@
 		655CF2B51945997100505FFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2941945997100505FFA /* Foundation.framework */; };
 		655CF2B61945997100505FFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2981945997100505FFA /* UIKit.framework */; };
 		655CF2BE1945997100505FFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 655CF2BC1945997100505FFA /* InfoPlist.strings */; };
-		655CF2C01945997100505FFA /* BIEPubFontTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2BF1945997100505FFA /* BIEPubFontTests.m */; };
-		655CF30519459C9900505FFA /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2D619459C9900505FFA /* ioapi.c */; };
-		655CF30619459C9900505FFA /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2D819459C9900505FFA /* unzip.c */; };
-		655CF30719459C9900505FFA /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2DA19459C9900505FFA /* zip.c */; };
-		655CF30819459C9900505FFA /* NSError+ObjectiveZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2DE19459C9900505FFA /* NSError+ObjectiveZip.m */; };
-		655CF30919459C9900505FFA /* OZConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2E019459C9900505FFA /* OZConstants.m */; };
-		655CF30A19459C9900505FFA /* OZFileInZipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2E219459C9900505FFA /* OZFileInZipInfo.m */; };
-		655CF30B19459C9900505FFA /* OZZipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2E519459C9900505FFA /* OZZipFile.m */; };
-		655CF30C19459C9900505FFA /* OZZipReadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2E719459C9900505FFA /* OZZipReadStream.m */; };
-		655CF30D19459C9900505FFA /* OZZipWriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2E919459C9900505FFA /* OZZipWriteStream.m */; };
-		655CF30E19459C9900505FFA /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2EB19459C9900505FFA /* adler32.c */; };
-		655CF30F19459C9900505FFA /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2EC19459C9900505FFA /* compress.c */; };
-		655CF31019459C9900505FFA /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2ED19459C9900505FFA /* crc32.c */; };
-		655CF31119459C9900505FFA /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2EF19459C9900505FFA /* deflate.c */; };
-		655CF31219459C9900505FFA /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2F119459C9900505FFA /* gzclose.c */; };
-		655CF31319459C9900505FFA /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2F319459C9900505FFA /* gzlib.c */; };
-		655CF31419459C9900505FFA /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2F419459C9900505FFA /* gzread.c */; };
-		655CF31519459C9900505FFA /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2F519459C9900505FFA /* gzwrite.c */; };
-		655CF31619459C9900505FFA /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2F619459C9900505FFA /* infback.c */; };
-		655CF31719459C9900505FFA /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2F719459C9900505FFA /* inffast.c */; };
-		655CF31819459C9900505FFA /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2FA19459C9900505FFA /* inflate.c */; };
-		655CF31919459C9900505FFA /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2FC19459C9900505FFA /* inftrees.c */; };
-		655CF31A19459C9900505FFA /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF2FE19459C9900505FFA /* trees.c */; };
-		655CF31B19459C9900505FFA /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF30019459C9900505FFA /* uncompr.c */; };
-		655CF31C19459C9900505FFA /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 655CF30319459C9900505FFA /* zutil.c */; };
-		655CF3261945A24C00505FFA /* BIEPubFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF3251945A24C00505FFA /* BIEPubFile.m */; };
-		655CF3291945A57C00505FFA /* BIFontSupportFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF3281945A57C00505FFA /* BIFontSupportFile.m */; };
-		655CF32C1945AD1400505FFA /* BICSSFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF32B1945AD1400505FFA /* BICSSFile.m */; };
-		655CF32F1945AE2B00505FFA /* BIFileHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 655CF32E1945AE2B00505FFA /* BIFileHelpers.m */; };
+		6571C1F519508FA3008C982A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655CF2941945997100505FFA /* Foundation.framework */; };
+		6571C1FA19508FA3008C982A /* BIEPubFontLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6571C1F919508FA3008C982A /* BIEPubFontLib.h */; };
+		6571C1FC19508FA3008C982A /* BIEPubFontLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 6571C1FB19508FA3008C982A /* BIEPubFontLib.m */; };
+		6571C25419508FCC008C982A /* BICSSFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6571C21819508FCC008C982A /* BICSSFile.m */; };
+		6571C25519508FCC008C982A /* BIEPubFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6571C21A19508FCC008C982A /* BIEPubFile.m */; };
+		6571C25719508FCC008C982A /* BIFileHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 6571C21F19508FCC008C982A /* BIFileHelpers.m */; };
+		6571C25819508FCC008C982A /* BIFontSupportFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6571C22119508FCC008C982A /* BIFontSupportFile.m */; };
+		6571C25919508FCC008C982A /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 6571C22519508FCC008C982A /* ioapi.c */; };
+		6571C25A19508FCC008C982A /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 6571C22719508FCC008C982A /* unzip.c */; };
+		6571C25B19508FCC008C982A /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 6571C22919508FCC008C982A /* zip.c */; };
+		6571C25C19508FCC008C982A /* NSError+ObjectiveZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 6571C22D19508FCC008C982A /* NSError+ObjectiveZip.m */; };
+		6571C25D19508FCC008C982A /* OZConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6571C22F19508FCC008C982A /* OZConstants.m */; };
+		6571C25E19508FCC008C982A /* OZFileInZipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6571C23119508FCC008C982A /* OZFileInZipInfo.m */; };
+		6571C25F19508FCC008C982A /* OZZipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6571C23419508FCC008C982A /* OZZipFile.m */; };
+		6571C26019508FCC008C982A /* OZZipReadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 6571C23619508FCC008C982A /* OZZipReadStream.m */; };
+		6571C26119508FCC008C982A /* OZZipWriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 6571C23819508FCC008C982A /* OZZipWriteStream.m */; };
+		6571C26219508FCC008C982A /* adler32.c in Sources */ = {isa = PBXBuildFile; fileRef = 6571C23A19508FCC008C982A /* adler32.c */; };
+		6571C26319508FCC008C982A /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 6571C23B19508FCC008C982A /* compress.c */; };
+		6571C26419508FCC008C982A /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 6571C23C19508FCC008C982A /* crc32.c */; };
+		6571C26519508FCC008C982A /* deflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 6571C23E19508FCC008C982A /* deflate.c */; };
+		6571C26619508FCC008C982A /* gzclose.c in Sources */ = {isa = PBXBuildFile; fileRef = 6571C24019508FCC008C982A /* gzclose.c */; };
+		6571C26719508FCC008C982A /* gzlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 6571C24219508FCC008C982A /* gzlib.c */; };
+		6571C26819508FCC008C982A /* gzread.c in Sources */ = {isa = PBXBuildFile; fileRef = 6571C24319508FCC008C982A /* gzread.c */; };
+		6571C26919508FCC008C982A /* gzwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = 6571C24419508FCC008C982A /* gzwrite.c */; };
+		6571C26A19508FCC008C982A /* infback.c in Sources */ = {isa = PBXBuildFile; fileRef = 6571C24519508FCC008C982A /* infback.c */; };
+		6571C26B19508FCC008C982A /* inffast.c in Sources */ = {isa = PBXBuildFile; fileRef = 6571C24619508FCC008C982A /* inffast.c */; };
+		6571C26C19508FCC008C982A /* inflate.c in Sources */ = {isa = PBXBuildFile; fileRef = 6571C24919508FCC008C982A /* inflate.c */; };
+		6571C26D19508FCC008C982A /* inftrees.c in Sources */ = {isa = PBXBuildFile; fileRef = 6571C24B19508FCC008C982A /* inftrees.c */; };
+		6571C26E19508FCC008C982A /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 6571C24D19508FCC008C982A /* trees.c */; };
+		6571C26F19508FCC008C982A /* uncompr.c in Sources */ = {isa = PBXBuildFile; fileRef = 6571C24F19508FCC008C982A /* uncompr.c */; };
+		6571C27019508FCC008C982A /* zutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 6571C25219508FCC008C982A /* zutil.c */; };
+		6571C27319509006008C982A /* libBIEPubFontLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6571C1F419508FA3008C982A /* libBIEPubFontLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +68,27 @@
 			remoteGlobalIDString = 655CF2901945997100505FFA;
 			remoteInfo = BIEPubFont;
 		};
+		6571C27119508FFF008C982A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 655CF2891945997100505FFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6571C1F319508FA3008C982A;
+			remoteInfo = BIEPubFontLib;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6571C1F219508FA3008C982A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				6571C1FA19508FA3008C982A /* BIEPubFontLib.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		43D03C4119461AB700B48F94 /* BIFilesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIFilesTableViewController.h; path = Classes/GUI/Files/ViewController/BIFilesTableViewController.h; sourceTree = "<group>"; };
@@ -98,62 +121,65 @@
 		655CF2B31945997100505FFA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		655CF2BB1945997100505FFA /* BIEPubFontTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BIEPubFontTests-Info.plist"; sourceTree = "<group>"; };
 		655CF2BD1945997100505FFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		655CF2BF1945997100505FFA /* BIEPubFontTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIEPubFontTests.m; sourceTree = "<group>"; };
-		655CF2D519459C9900505FFA /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
-		655CF2D619459C9900505FFA /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
-		655CF2D719459C9900505FFA /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
-		655CF2D819459C9900505FFA /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
-		655CF2D919459C9900505FFA /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
-		655CF2DA19459C9900505FFA /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
-		655CF2DB19459C9900505FFA /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
-		655CF2DD19459C9900505FFA /* NSError+ObjectiveZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+ObjectiveZip.h"; sourceTree = "<group>"; };
-		655CF2DE19459C9900505FFA /* NSError+ObjectiveZip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+ObjectiveZip.m"; sourceTree = "<group>"; };
-		655CF2DF19459C9900505FFA /* OZConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZConstants.h; sourceTree = "<group>"; };
-		655CF2E019459C9900505FFA /* OZConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZConstants.m; sourceTree = "<group>"; };
-		655CF2E119459C9900505FFA /* OZFileInZipInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZFileInZipInfo.h; sourceTree = "<group>"; };
-		655CF2E219459C9900505FFA /* OZFileInZipInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZFileInZipInfo.m; sourceTree = "<group>"; };
-		655CF2E319459C9900505FFA /* OZLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZLib.h; sourceTree = "<group>"; };
-		655CF2E419459C9900505FFA /* OZZipFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZZipFile.h; sourceTree = "<group>"; };
-		655CF2E519459C9900505FFA /* OZZipFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZZipFile.m; sourceTree = "<group>"; };
-		655CF2E619459C9900505FFA /* OZZipReadStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZZipReadStream.h; sourceTree = "<group>"; };
-		655CF2E719459C9900505FFA /* OZZipReadStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZZipReadStream.m; sourceTree = "<group>"; };
-		655CF2E819459C9900505FFA /* OZZipWriteStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZZipWriteStream.h; sourceTree = "<group>"; };
-		655CF2E919459C9900505FFA /* OZZipWriteStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZZipWriteStream.m; sourceTree = "<group>"; };
-		655CF2EB19459C9900505FFA /* adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adler32.c; sourceTree = "<group>"; };
-		655CF2EC19459C9900505FFA /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
-		655CF2ED19459C9900505FFA /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crc32.c; sourceTree = "<group>"; };
-		655CF2EE19459C9900505FFA /* crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crc32.h; sourceTree = "<group>"; };
-		655CF2EF19459C9900505FFA /* deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deflate.c; sourceTree = "<group>"; };
-		655CF2F019459C9900505FFA /* deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deflate.h; sourceTree = "<group>"; };
-		655CF2F119459C9900505FFA /* gzclose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzclose.c; sourceTree = "<group>"; };
-		655CF2F219459C9900505FFA /* gzguts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gzguts.h; sourceTree = "<group>"; };
-		655CF2F319459C9900505FFA /* gzlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzlib.c; sourceTree = "<group>"; };
-		655CF2F419459C9900505FFA /* gzread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzread.c; sourceTree = "<group>"; };
-		655CF2F519459C9900505FFA /* gzwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzwrite.c; sourceTree = "<group>"; };
-		655CF2F619459C9900505FFA /* infback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = infback.c; sourceTree = "<group>"; };
-		655CF2F719459C9900505FFA /* inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inffast.c; sourceTree = "<group>"; };
-		655CF2F819459C9900505FFA /* inffast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffast.h; sourceTree = "<group>"; };
-		655CF2F919459C9900505FFA /* inffixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffixed.h; sourceTree = "<group>"; };
-		655CF2FA19459C9900505FFA /* inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inflate.c; sourceTree = "<group>"; };
-		655CF2FB19459C9900505FFA /* inflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inflate.h; sourceTree = "<group>"; };
-		655CF2FC19459C9900505FFA /* inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inftrees.c; sourceTree = "<group>"; };
-		655CF2FD19459C9900505FFA /* inftrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inftrees.h; sourceTree = "<group>"; };
-		655CF2FE19459C9900505FFA /* trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trees.c; sourceTree = "<group>"; };
-		655CF2FF19459C9900505FFA /* trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trees.h; sourceTree = "<group>"; };
-		655CF30019459C9900505FFA /* uncompr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uncompr.c; sourceTree = "<group>"; };
-		655CF30119459C9900505FFA /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
-		655CF30219459C9900505FFA /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
-		655CF30319459C9900505FFA /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
-		655CF30419459C9900505FFA /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
-		655CF32019459EE500505FFA /* BIEPubFontLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BIEPubFontLib.h; path = Classes/Library/BIEPubFontLib.h; sourceTree = "<group>"; };
-		655CF3241945A24C00505FFA /* BIEPubFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIEPubFile.h; path = Classes/Library/BIEPubFile.h; sourceTree = "<group>"; };
-		655CF3251945A24C00505FFA /* BIEPubFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIEPubFile.m; path = Classes/Library/BIEPubFile.m; sourceTree = "<group>"; };
-		655CF3271945A57C00505FFA /* BIFontSupportFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIFontSupportFile.h; path = Classes/Library/BIFontSupportFile.h; sourceTree = "<group>"; };
-		655CF3281945A57C00505FFA /* BIFontSupportFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIFontSupportFile.m; path = Classes/Library/BIFontSupportFile.m; sourceTree = "<group>"; };
-		655CF32A1945AD1400505FFA /* BICSSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BICSSFile.h; path = Classes/Library/BICSSFile.h; sourceTree = "<group>"; };
-		655CF32B1945AD1400505FFA /* BICSSFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BICSSFile.m; path = Classes/Library/BICSSFile.m; sourceTree = "<group>"; };
-		655CF32D1945AE2B00505FFA /* BIFileHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIFileHelpers.h; path = Classes/Library/BIFileHelpers.h; sourceTree = "<group>"; };
-		655CF32E1945AE2B00505FFA /* BIFileHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIFileHelpers.m; path = Classes/Library/BIFileHelpers.m; sourceTree = "<group>"; };
+		6571C1F419508FA3008C982A /* libBIEPubFontLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBIEPubFontLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6571C1F819508FA3008C982A /* BIEPubFontLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BIEPubFontLib-Prefix.pch"; sourceTree = "<group>"; };
+		6571C1F919508FA3008C982A /* BIEPubFontLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIEPubFontLib.h; sourceTree = "<group>"; };
+		6571C1FB19508FA3008C982A /* BIEPubFontLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIEPubFontLib.m; sourceTree = "<group>"; };
+		6571C21719508FCC008C982A /* BICSSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BICSSFile.h; sourceTree = "<group>"; };
+		6571C21819508FCC008C982A /* BICSSFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BICSSFile.m; sourceTree = "<group>"; };
+		6571C21919508FCC008C982A /* BIEPubFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIEPubFile.h; sourceTree = "<group>"; };
+		6571C21A19508FCC008C982A /* BIEPubFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIEPubFile.m; sourceTree = "<group>"; };
+		6571C21B19508FCC008C982A /* BIEPubFontLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIEPubFontLib.h; sourceTree = "<group>"; };
+		6571C21E19508FCC008C982A /* BIFileHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIFileHelpers.h; sourceTree = "<group>"; };
+		6571C21F19508FCC008C982A /* BIFileHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIFileHelpers.m; sourceTree = "<group>"; };
+		6571C22019508FCC008C982A /* BIFontSupportFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIFontSupportFile.h; sourceTree = "<group>"; };
+		6571C22119508FCC008C982A /* BIFontSupportFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIFontSupportFile.m; sourceTree = "<group>"; };
+		6571C22419508FCC008C982A /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		6571C22519508FCC008C982A /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		6571C22619508FCC008C982A /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		6571C22719508FCC008C982A /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		6571C22819508FCC008C982A /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		6571C22919508FCC008C982A /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		6571C22A19508FCC008C982A /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		6571C22C19508FCC008C982A /* NSError+ObjectiveZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+ObjectiveZip.h"; sourceTree = "<group>"; };
+		6571C22D19508FCC008C982A /* NSError+ObjectiveZip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+ObjectiveZip.m"; sourceTree = "<group>"; };
+		6571C22E19508FCC008C982A /* OZConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZConstants.h; sourceTree = "<group>"; };
+		6571C22F19508FCC008C982A /* OZConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZConstants.m; sourceTree = "<group>"; };
+		6571C23019508FCC008C982A /* OZFileInZipInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZFileInZipInfo.h; sourceTree = "<group>"; };
+		6571C23119508FCC008C982A /* OZFileInZipInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZFileInZipInfo.m; sourceTree = "<group>"; };
+		6571C23219508FCC008C982A /* OZLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZLib.h; sourceTree = "<group>"; };
+		6571C23319508FCC008C982A /* OZZipFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZZipFile.h; sourceTree = "<group>"; };
+		6571C23419508FCC008C982A /* OZZipFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZZipFile.m; sourceTree = "<group>"; };
+		6571C23519508FCC008C982A /* OZZipReadStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZZipReadStream.h; sourceTree = "<group>"; };
+		6571C23619508FCC008C982A /* OZZipReadStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZZipReadStream.m; sourceTree = "<group>"; };
+		6571C23719508FCC008C982A /* OZZipWriteStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZZipWriteStream.h; sourceTree = "<group>"; };
+		6571C23819508FCC008C982A /* OZZipWriteStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZZipWriteStream.m; sourceTree = "<group>"; };
+		6571C23A19508FCC008C982A /* adler32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = adler32.c; sourceTree = "<group>"; };
+		6571C23B19508FCC008C982A /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
+		6571C23C19508FCC008C982A /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crc32.c; sourceTree = "<group>"; };
+		6571C23D19508FCC008C982A /* crc32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crc32.h; sourceTree = "<group>"; };
+		6571C23E19508FCC008C982A /* deflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = deflate.c; sourceTree = "<group>"; };
+		6571C23F19508FCC008C982A /* deflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deflate.h; sourceTree = "<group>"; };
+		6571C24019508FCC008C982A /* gzclose.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzclose.c; sourceTree = "<group>"; };
+		6571C24119508FCC008C982A /* gzguts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gzguts.h; sourceTree = "<group>"; };
+		6571C24219508FCC008C982A /* gzlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzlib.c; sourceTree = "<group>"; };
+		6571C24319508FCC008C982A /* gzread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzread.c; sourceTree = "<group>"; };
+		6571C24419508FCC008C982A /* gzwrite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gzwrite.c; sourceTree = "<group>"; };
+		6571C24519508FCC008C982A /* infback.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = infback.c; sourceTree = "<group>"; };
+		6571C24619508FCC008C982A /* inffast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inffast.c; sourceTree = "<group>"; };
+		6571C24719508FCC008C982A /* inffast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffast.h; sourceTree = "<group>"; };
+		6571C24819508FCC008C982A /* inffixed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inffixed.h; sourceTree = "<group>"; };
+		6571C24919508FCC008C982A /* inflate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inflate.c; sourceTree = "<group>"; };
+		6571C24A19508FCC008C982A /* inflate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inflate.h; sourceTree = "<group>"; };
+		6571C24B19508FCC008C982A /* inftrees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = inftrees.c; sourceTree = "<group>"; };
+		6571C24C19508FCC008C982A /* inftrees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inftrees.h; sourceTree = "<group>"; };
+		6571C24D19508FCC008C982A /* trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trees.c; sourceTree = "<group>"; };
+		6571C24E19508FCC008C982A /* trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trees.h; sourceTree = "<group>"; };
+		6571C24F19508FCC008C982A /* uncompr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uncompr.c; sourceTree = "<group>"; };
+		6571C25019508FCC008C982A /* zconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
+		6571C25119508FCC008C982A /* zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
+		6571C25219508FCC008C982A /* zutil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
+		6571C25319508FCC008C982A /* zutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6571C27319509006008C982A /* libBIEPubFontLib.a in Frameworks */,
 				655CF2971945997100505FFA /* CoreGraphics.framework in Frameworks */,
 				655CF2991945997100505FFA /* UIKit.framework in Frameworks */,
 				655CF2951945997100505FFA /* Foundation.framework in Frameworks */,
@@ -174,6 +201,14 @@
 				655CF2B41945997100505FFA /* XCTest.framework in Frameworks */,
 				655CF2B61945997100505FFA /* UIKit.framework in Frameworks */,
 				655CF2B51945997100505FFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6571C1F119508FA3008C982A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6571C1F519508FA3008C982A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +319,7 @@
 			children = (
 				655CF29A1945997100505FFA /* BIEPubFont */,
 				655CF2B91945997100505FFA /* BIEPubFontTests */,
+				6571C1F619508FA3008C982A /* BIEPubFontLib */,
 				655CF2931945997100505FFA /* Frameworks */,
 				655CF2921945997100505FFA /* Products */,
 			);
@@ -294,6 +330,7 @@
 			children = (
 				655CF2911945997100505FFA /* BIEPubFont.app */,
 				655CF2B21945997100505FFA /* BIEPubFontTests.xctest */,
+				6571C1F419508FA3008C982A /* libBIEPubFontLib.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -314,7 +351,6 @@
 			children = (
 				655CF2CA19459A8900505FFA /* Classes */,
 				655CF2C919459A5800505FFA /* Resources */,
-				655CF2CB19459A9100505FFA /* Vendors */,
 				655CF29B1945997100505FFA /* SupportingFiles */,
 			);
 			path = BIEPubFont;
@@ -333,7 +369,6 @@
 		655CF2B91945997100505FFA /* BIEPubFontTests */ = {
 			isa = PBXGroup;
 			children = (
-				655CF2BF1945997100505FFA /* BIEPubFontTests.m */,
 				655CF2BA1945997100505FFA /* Supporting Files */,
 			);
 			path = BIEPubFontTests;
@@ -362,22 +397,11 @@
 			isa = PBXGroup;
 			children = (
 				43D03C521946264E00B48F94 /* Helpers */,
-				655CF31F19459E3900505FFA /* Library */,
 				655CF2CE19459B2200505FFA /* GUI */,
 				655CF2A31945997100505FFA /* BIAppDelegate.h */,
 				655CF2A41945997100505FFA /* BIAppDelegate.m */,
 			);
 			name = Classes;
-			sourceTree = "<group>";
-		};
-		655CF2CB19459A9100505FFA /* Vendors */ = {
-			isa = PBXGroup;
-			children = (
-				655CF2D419459C9900505FFA /* MiniZip */,
-				655CF2DC19459C9900505FFA /* Objective-Zip */,
-				655CF2EA19459C9900505FFA /* ZLib */,
-			);
-			name = Vendors;
 			sourceTree = "<group>";
 		};
 		655CF2CC19459ABC00505FFA /* Images */ = {
@@ -405,90 +429,117 @@
 			name = GUI;
 			sourceTree = "<group>";
 		};
-		655CF2D419459C9900505FFA /* MiniZip */ = {
+		6571C1F619508FA3008C982A /* BIEPubFontLib */ = {
 			isa = PBXGroup;
 			children = (
-				655CF2D519459C9900505FFA /* crypt.h */,
-				655CF2D619459C9900505FFA /* ioapi.c */,
-				655CF2D719459C9900505FFA /* ioapi.h */,
-				655CF2D819459C9900505FFA /* unzip.c */,
-				655CF2D919459C9900505FFA /* unzip.h */,
-				655CF2DA19459C9900505FFA /* zip.c */,
-				655CF2DB19459C9900505FFA /* zip.h */,
+				6571C21619508FCC008C982A /* Library */,
+				6571C22219508FCC008C982A /* Vendors */,
+				6571C1F919508FA3008C982A /* BIEPubFontLib.h */,
+				6571C1FB19508FA3008C982A /* BIEPubFontLib.m */,
+				6571C1F719508FA3008C982A /* Supporting Files */,
 			);
-			name = MiniZip;
-			path = Vendors/MiniZip;
+			path = BIEPubFontLib;
 			sourceTree = "<group>";
 		};
-		655CF2DC19459C9900505FFA /* Objective-Zip */ = {
+		6571C1F719508FA3008C982A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				655CF2DD19459C9900505FFA /* NSError+ObjectiveZip.h */,
-				655CF2DE19459C9900505FFA /* NSError+ObjectiveZip.m */,
-				655CF2DF19459C9900505FFA /* OZConstants.h */,
-				655CF2E019459C9900505FFA /* OZConstants.m */,
-				655CF2E119459C9900505FFA /* OZFileInZipInfo.h */,
-				655CF2E219459C9900505FFA /* OZFileInZipInfo.m */,
-				655CF2E319459C9900505FFA /* OZLib.h */,
-				655CF2E419459C9900505FFA /* OZZipFile.h */,
-				655CF2E519459C9900505FFA /* OZZipFile.m */,
-				655CF2E619459C9900505FFA /* OZZipReadStream.h */,
-				655CF2E719459C9900505FFA /* OZZipReadStream.m */,
-				655CF2E819459C9900505FFA /* OZZipWriteStream.h */,
-				655CF2E919459C9900505FFA /* OZZipWriteStream.m */,
+				6571C1F819508FA3008C982A /* BIEPubFontLib-Prefix.pch */,
 			);
-			name = "Objective-Zip";
-			path = "Vendors/Objective-Zip";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		655CF2EA19459C9900505FFA /* ZLib */ = {
+		6571C21619508FCC008C982A /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				655CF2EB19459C9900505FFA /* adler32.c */,
-				655CF2EC19459C9900505FFA /* compress.c */,
-				655CF2ED19459C9900505FFA /* crc32.c */,
-				655CF2EE19459C9900505FFA /* crc32.h */,
-				655CF2EF19459C9900505FFA /* deflate.c */,
-				655CF2F019459C9900505FFA /* deflate.h */,
-				655CF2F119459C9900505FFA /* gzclose.c */,
-				655CF2F219459C9900505FFA /* gzguts.h */,
-				655CF2F319459C9900505FFA /* gzlib.c */,
-				655CF2F419459C9900505FFA /* gzread.c */,
-				655CF2F519459C9900505FFA /* gzwrite.c */,
-				655CF2F619459C9900505FFA /* infback.c */,
-				655CF2F719459C9900505FFA /* inffast.c */,
-				655CF2F819459C9900505FFA /* inffast.h */,
-				655CF2F919459C9900505FFA /* inffixed.h */,
-				655CF2FA19459C9900505FFA /* inflate.c */,
-				655CF2FB19459C9900505FFA /* inflate.h */,
-				655CF2FC19459C9900505FFA /* inftrees.c */,
-				655CF2FD19459C9900505FFA /* inftrees.h */,
-				655CF2FE19459C9900505FFA /* trees.c */,
-				655CF2FF19459C9900505FFA /* trees.h */,
-				655CF30019459C9900505FFA /* uncompr.c */,
-				655CF30119459C9900505FFA /* zconf.h */,
-				655CF30219459C9900505FFA /* zlib.h */,
-				655CF30319459C9900505FFA /* zutil.c */,
-				655CF30419459C9900505FFA /* zutil.h */,
+				6571C21719508FCC008C982A /* BICSSFile.h */,
+				6571C21819508FCC008C982A /* BICSSFile.m */,
+				6571C21919508FCC008C982A /* BIEPubFile.h */,
+				6571C21A19508FCC008C982A /* BIEPubFile.m */,
+				6571C21B19508FCC008C982A /* BIEPubFontLib.h */,
+				6571C21E19508FCC008C982A /* BIFileHelpers.h */,
+				6571C21F19508FCC008C982A /* BIFileHelpers.m */,
+				6571C22019508FCC008C982A /* BIFontSupportFile.h */,
+				6571C22119508FCC008C982A /* BIFontSupportFile.m */,
 			);
-			name = ZLib;
-			path = Vendors/ZLib;
+			path = Library;
 			sourceTree = "<group>";
 		};
-		655CF31F19459E3900505FFA /* Library */ = {
+		6571C22219508FCC008C982A /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				655CF32019459EE500505FFA /* BIEPubFontLib.h */,
-				655CF3241945A24C00505FFA /* BIEPubFile.h */,
-				655CF3251945A24C00505FFA /* BIEPubFile.m */,
-				655CF3271945A57C00505FFA /* BIFontSupportFile.h */,
-				655CF3281945A57C00505FFA /* BIFontSupportFile.m */,
-				655CF32A1945AD1400505FFA /* BICSSFile.h */,
-				655CF32B1945AD1400505FFA /* BICSSFile.m */,
-				655CF32D1945AE2B00505FFA /* BIFileHelpers.h */,
-				655CF32E1945AE2B00505FFA /* BIFileHelpers.m */,
+				6571C22319508FCC008C982A /* MiniZip */,
+				6571C22B19508FCC008C982A /* Objective-Zip */,
+				6571C23919508FCC008C982A /* ZLib */,
 			);
-			name = Library;
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		6571C22319508FCC008C982A /* MiniZip */ = {
+			isa = PBXGroup;
+			children = (
+				6571C22419508FCC008C982A /* crypt.h */,
+				6571C22519508FCC008C982A /* ioapi.c */,
+				6571C22619508FCC008C982A /* ioapi.h */,
+				6571C22719508FCC008C982A /* unzip.c */,
+				6571C22819508FCC008C982A /* unzip.h */,
+				6571C22919508FCC008C982A /* zip.c */,
+				6571C22A19508FCC008C982A /* zip.h */,
+			);
+			path = MiniZip;
+			sourceTree = "<group>";
+		};
+		6571C22B19508FCC008C982A /* Objective-Zip */ = {
+			isa = PBXGroup;
+			children = (
+				6571C22C19508FCC008C982A /* NSError+ObjectiveZip.h */,
+				6571C22D19508FCC008C982A /* NSError+ObjectiveZip.m */,
+				6571C22E19508FCC008C982A /* OZConstants.h */,
+				6571C22F19508FCC008C982A /* OZConstants.m */,
+				6571C23019508FCC008C982A /* OZFileInZipInfo.h */,
+				6571C23119508FCC008C982A /* OZFileInZipInfo.m */,
+				6571C23219508FCC008C982A /* OZLib.h */,
+				6571C23319508FCC008C982A /* OZZipFile.h */,
+				6571C23419508FCC008C982A /* OZZipFile.m */,
+				6571C23519508FCC008C982A /* OZZipReadStream.h */,
+				6571C23619508FCC008C982A /* OZZipReadStream.m */,
+				6571C23719508FCC008C982A /* OZZipWriteStream.h */,
+				6571C23819508FCC008C982A /* OZZipWriteStream.m */,
+			);
+			path = "Objective-Zip";
+			sourceTree = "<group>";
+		};
+		6571C23919508FCC008C982A /* ZLib */ = {
+			isa = PBXGroup;
+			children = (
+				6571C23A19508FCC008C982A /* adler32.c */,
+				6571C23B19508FCC008C982A /* compress.c */,
+				6571C23C19508FCC008C982A /* crc32.c */,
+				6571C23D19508FCC008C982A /* crc32.h */,
+				6571C23E19508FCC008C982A /* deflate.c */,
+				6571C23F19508FCC008C982A /* deflate.h */,
+				6571C24019508FCC008C982A /* gzclose.c */,
+				6571C24119508FCC008C982A /* gzguts.h */,
+				6571C24219508FCC008C982A /* gzlib.c */,
+				6571C24319508FCC008C982A /* gzread.c */,
+				6571C24419508FCC008C982A /* gzwrite.c */,
+				6571C24519508FCC008C982A /* infback.c */,
+				6571C24619508FCC008C982A /* inffast.c */,
+				6571C24719508FCC008C982A /* inffast.h */,
+				6571C24819508FCC008C982A /* inffixed.h */,
+				6571C24919508FCC008C982A /* inflate.c */,
+				6571C24A19508FCC008C982A /* inflate.h */,
+				6571C24B19508FCC008C982A /* inftrees.c */,
+				6571C24C19508FCC008C982A /* inftrees.h */,
+				6571C24D19508FCC008C982A /* trees.c */,
+				6571C24E19508FCC008C982A /* trees.h */,
+				6571C24F19508FCC008C982A /* uncompr.c */,
+				6571C25019508FCC008C982A /* zconf.h */,
+				6571C25119508FCC008C982A /* zlib.h */,
+				6571C25219508FCC008C982A /* zutil.c */,
+				6571C25319508FCC008C982A /* zutil.h */,
+			);
+			path = ZLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,6 +556,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				6571C27219508FFF008C982A /* PBXTargetDependency */,
 			);
 			name = BIEPubFont;
 			productName = BIEPubFont;
@@ -528,6 +580,23 @@
 			productName = BIEPubFontTests;
 			productReference = 655CF2B21945997100505FFA /* BIEPubFontTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6571C1F319508FA3008C982A /* BIEPubFontLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6571C21019508FA4008C982A /* Build configuration list for PBXNativeTarget "BIEPubFontLib" */;
+			buildPhases = (
+				6571C1F019508FA3008C982A /* Sources */,
+				6571C1F119508FA3008C982A /* Frameworks */,
+				6571C1F219508FA3008C982A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BIEPubFontLib;
+			productName = BIEPubFontLib;
+			productReference = 6571C1F419508FA3008C982A /* libBIEPubFontLib.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -559,6 +628,7 @@
 			targets = (
 				655CF2901945997100505FFA /* BIEPubFont */,
 				655CF2B11945997100505FFA /* BIEPubFontTests */,
+				6571C1F319508FA3008C982A /* BIEPubFontLib */,
 			);
 		};
 /* End PBXProject section */
@@ -589,43 +659,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				655CF31C19459C9900505FFA /* zutil.c in Sources */,
-				655CF31319459C9900505FFA /* gzlib.c in Sources */,
-				655CF3261945A24C00505FFA /* BIEPubFile.m in Sources */,
 				43D03C631946403000B48F94 /* NSArray+Search.m in Sources */,
-				655CF31819459C9900505FFA /* inflate.c in Sources */,
 				43D03C4E1946210300B48F94 /* BIFileContentViewController.m in Sources */,
-				655CF32F1945AE2B00505FFA /* BIFileHelpers.m in Sources */,
-				655CF31B19459C9900505FFA /* uncompr.c in Sources */,
-				655CF31919459C9900505FFA /* inftrees.c in Sources */,
-				655CF31619459C9900505FFA /* infback.c in Sources */,
-				655CF30819459C9900505FFA /* NSError+ObjectiveZip.m in Sources */,
-				655CF30619459C9900505FFA /* unzip.c in Sources */,
-				655CF31419459C9900505FFA /* gzread.c in Sources */,
-				655CF3291945A57C00505FFA /* BIFontSupportFile.m in Sources */,
 				43D03C4319461AB700B48F94 /* BIFilesTableViewController.m in Sources */,
-				655CF31019459C9900505FFA /* crc32.c in Sources */,
 				43D03C511946211A00B48F94 /* BIFileContentView.m in Sources */,
-				655CF30A19459C9900505FFA /* OZFileInZipInfo.m in Sources */,
-				655CF31219459C9900505FFA /* gzclose.c in Sources */,
-				655CF31719459C9900505FFA /* inffast.c in Sources */,
-				655CF30E19459C9900505FFA /* adler32.c in Sources */,
 				43D03C4719461C6300B48F94 /* BIFilesTableViewCell.m in Sources */,
-				655CF30D19459C9900505FFA /* OZZipWriteStream.m in Sources */,
 				43D03C5B194628D600B48F94 /* NSBundle+FullPath.m in Sources */,
 				43D03C5F19463CFE00B48F94 /* NSString+CSSFile.m in Sources */,
 				655CF2A11945997100505FFA /* main.m in Sources */,
-				655CF30719459C9900505FFA /* zip.c in Sources */,
-				655CF32C1945AD1400505FFA /* BICSSFile.m in Sources */,
-				655CF30B19459C9900505FFA /* OZZipFile.m in Sources */,
-				655CF30C19459C9900505FFA /* OZZipReadStream.m in Sources */,
-				655CF31519459C9900505FFA /* gzwrite.c in Sources */,
-				655CF30519459C9900505FFA /* ioapi.c in Sources */,
-				655CF30919459C9900505FFA /* OZConstants.m in Sources */,
 				655CF2A51945997100505FFA /* BIAppDelegate.m in Sources */,
-				655CF30F19459C9900505FFA /* compress.c in Sources */,
-				655CF31A19459C9900505FFA /* trees.c in Sources */,
-				655CF31119459C9900505FFA /* deflate.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,7 +675,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				655CF2C01945997100505FFA /* BIEPubFontTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6571C1F019508FA3008C982A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6571C25419508FCC008C982A /* BICSSFile.m in Sources */,
+				6571C25519508FCC008C982A /* BIEPubFile.m in Sources */,
+				6571C25719508FCC008C982A /* BIFileHelpers.m in Sources */,
+				6571C26419508FCC008C982A /* crc32.c in Sources */,
+				6571C25E19508FCC008C982A /* OZFileInZipInfo.m in Sources */,
+				6571C25D19508FCC008C982A /* OZConstants.m in Sources */,
+				6571C26D19508FCC008C982A /* inftrees.c in Sources */,
+				6571C25B19508FCC008C982A /* zip.c in Sources */,
+				6571C26519508FCC008C982A /* deflate.c in Sources */,
+				6571C26A19508FCC008C982A /* infback.c in Sources */,
+				6571C26819508FCC008C982A /* gzread.c in Sources */,
+				6571C25819508FCC008C982A /* BIFontSupportFile.m in Sources */,
+				6571C26219508FCC008C982A /* adler32.c in Sources */,
+				6571C25C19508FCC008C982A /* NSError+ObjectiveZip.m in Sources */,
+				6571C26919508FCC008C982A /* gzwrite.c in Sources */,
+				6571C1FC19508FA3008C982A /* BIEPubFontLib.m in Sources */,
+				6571C26619508FCC008C982A /* gzclose.c in Sources */,
+				6571C26C19508FCC008C982A /* inflate.c in Sources */,
+				6571C26E19508FCC008C982A /* trees.c in Sources */,
+				6571C25A19508FCC008C982A /* unzip.c in Sources */,
+				6571C25919508FCC008C982A /* ioapi.c in Sources */,
+				6571C26319508FCC008C982A /* compress.c in Sources */,
+				6571C26B19508FCC008C982A /* inffast.c in Sources */,
+				6571C27019508FCC008C982A /* zutil.c in Sources */,
+				6571C26019508FCC008C982A /* OZZipReadStream.m in Sources */,
+				6571C26719508FCC008C982A /* gzlib.c in Sources */,
+				6571C26119508FCC008C982A /* OZZipWriteStream.m in Sources */,
+				6571C26F19508FCC008C982A /* uncompr.c in Sources */,
+				6571C25F19508FCC008C982A /* OZZipFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,6 +721,11 @@
 			isa = PBXTargetDependency;
 			target = 655CF2901945997100505FFA /* BIEPubFont */;
 			targetProxy = 655CF2B71945997100505FFA /* PBXContainerItemProxy */;
+		};
+		6571C27219508FFF008C982A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6571C1F319508FA3008C982A /* BIEPubFontLib */;
+			targetProxy = 6571C27119508FFF008C982A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -804,6 +886,34 @@
 			};
 			name = Release;
 		};
+		6571C21119508FA4008C982A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BIEPubFontLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BIEPubFontLib/BIEPubFontLib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6571C21219508FA4008C982A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BIEPubFontLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BIEPubFontLib/BIEPubFontLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -833,6 +943,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		6571C21019508FA4008C982A /* Build configuration list for PBXNativeTarget "BIEPubFontLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6571C21119508FA4008C982A /* Debug */,
+				6571C21219508FA4008C982A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
